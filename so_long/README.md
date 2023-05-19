@@ -1,63 +1,64 @@
 # So_Long
 
-So_Long es un proyecto del programa 42 de Telefónica que consiste en la implementación de un juego 2D simple utilizando la biblioteca gráfica minilibX. El objetivo del juego es que el jugador controle un personaje y recolecte todos los objetos presentes en el nivel para completarlo.
+So_Long is a project within Telefónica's 42 program, which involves the implementation of a simple 2D game using the minilibX graphics library. The objective of the game is for the player to control a character and collect all the objects present in the level to complete it.
 
-Este proyecto está desarrollado en lenguaje C y se ejecuta en el sistema operativo Unix/Linux.
+This project is developed in the C language and runs on the Unix/Linux operating system.
 
-## 🎮 Funcionalidades
-- Visualización de un mapa en una ventana gráfica.
-- Movimiento del personaje a través del mapa.
-- Recolección de objetos presentes en el mapa.
-- Conteo de movimientos y objetos recolectados.
-- Salida del juego una vez se hayan recolectado todos los objetos.
+## 🎮 Features
+Displaying a map in a graphical window.
+Movement of the character across the map.
+Collecting objects present on the map.
+Counting movements and collected objects.
+Exiting the game once all objects have been collected..
 
-## ⚙️ Requisitos del sistema
-Para compilar y ejecutar el proyecto, necesitarás tener instalado lo siguiente:
-- Sistema operativo Unix/Linux.
-- Compilador GCC.
-- Biblioteca gráfica minilibX.
+## ⚙️ System Requirements
+To compile and run the project, you will need to have the following installed:
 
-## 🚀 Instrucciones de instalación
-Clona este repositorio en tu máquina local:
+- Unix/Linux operating system.
+- GCC compiler.
+- minilibX graphics library.
+
+## 🚀 Installation Instructions
+Clone this repository to your local machine:
 ```
 git clone https://github.com/trollan/so_long.git
 ```
-Navega hasta el directorio del proyecto:
+Navigate to the project directory:
 ```
 cd so_long
 ```
-Compila el proyecto utilizando el Makefile:
+Compile the project using the Makefile:
 ```
 make
 ```
-Esto generará un ejecutable llamado "so_long".
+This will generate an executable called "so_long".
 
-## 💡 Instrucciones de uso
-Una vez hayas compilado el proyecto, puedes ejecutar el juego con el siguiente comando:
+## 💡 Usage Instructions
+Once you have compiled the project, you can run the game with the following command:
 ```
 ./so_long maps/map.ber
 ```
-Reemplaza "map.ber" con el nombre del archivo de mapa que deseas cargar. Asegúrate de que el archivo de mapa esté en el formato adecuado.
+Replace "map.ber" with the name of the map file you want to load. Make sure the map file is in the correct format.
 
-A continuación, podrás ver el juego en una ventana gráfica. Utiliza las teclas de dirección (WASD o las flechas) para mover al personaje por el mapa. El objetivo es recolectar todos los objetos ('C') y llegar a la salida ('E') para completar el nivel.
+You will then see the game in a graphical window. Use the arrow keys (WASD or the arrows) to move the character around the map. The goal is to collect all the objects ('C') and reach the exit ('E') to complete the level.
 
-El juego mostrará la cantidad de movimientos realizados y la cantidad de objetos recolectados en la parte superior de la ventana.
+The game will display the number of movements made and the number of objects collected at the top of the window.
 
-## 📁 Estructura del proyecto
-El proyecto está organizado de la siguiente manera:
+## 📁 Project Structure
+The project is organized as follows:
 ```
 so_long/
-  ├── ft_printf     # 📚 Biblioteca de la funcion ft_printf auxiliar.
-  ├── get_next_line # 📚 Biblioteca de la funcion getnextline auxiliar.
-  ├── libft/        # 📚 Biblioteca de funciones auxiliares
-  ├── maps/         # 🗺️ Archivos de mapa de ejemplo
-  ├── mlx/          # 🎨 Biblioteca gráfica minilibX
-  ├── Makefile      # 🛠️ Archivo para compilar el proyecto
-  └── so_long       # ▶️ Ejecutable del juego
+  ├── ft_printf     # 📚 Auxiliary ft_printf function library
+  ├── get_next_line # 📚 Auxiliary get_next_line function library
+  ├── libft/        # 📚 Auxiliary function library
+  ├── maps/         # 🗺️ Example map files
+  ├── mlx/          # 🎨 minilibX graphics library
+  ├── Makefile      # 🛠️ File for compiling the project
+  └── so_long       # ▶️ Game executable
 ```
 
-## 📧 Contacto
-Si tienes alguna pregunta o sugerencia sobre el proyecto, puedes contactar conmigo a través de mi dirección de correo electrónico manuelsanchezies@gmail.com.
+## 📧 Contact
+If you have any questions or suggestions about the project, you can contact me via email at manuelsanchezies@gmail.com.
 
-¡Disfruta del juego!
+Enjoy the game!
 
