@@ -45,6 +45,7 @@ El juego mostrará la cantidad de movimientos realizados y la cantidad de objeto
 
 Estructura del proyecto
 El proyecto está organizado de la siguiente manera:
+```
 so_long/
   ├── ft_printf     # Biblioteca de la funcion ft_printf auxiliar.
   ├── get_next_line # Biblioteca de la funcion getnextline auxiliar.
@@ -53,7 +54,7 @@ so_long/
   ├── mlx/          # Biblioteca gráfica minilibX
   ├── Makefile      # Archivo para compilar el proyecto
   └── so_long       # Ejecutable del juego
-
+```
 
 Contacto
 Si tienes alguna pregunta o sugerencia sobre el proyecto, puedes contactar conmigo a través de mi dirección de correo electrónico manuelsanchezieso@gmail.com.
