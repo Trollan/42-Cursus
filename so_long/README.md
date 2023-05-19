@@ -1,76 +1,158 @@
-<!DOCTYPE html>
-<html>
+# So_Long
+![Logo de So_Long](logo.png)
 
-<head>
-    <title>So_Long</title>
-</head>
+So_Long es un proyecto del programa 42 de Telefónica que consiste en la implementación de un juego 2D simple utilizando la biblioteca gráfica minilibX. El objetivo del juego es que el jugador controle un personaje y recolecte todos los objetos presentes en el nivel para completarlo.
 
-<body>
-    <h2>So_Long es un proyecto del programa 42 de Telefónica que consiste en la implementación de un juego 2D simple
-        utilizando la biblioteca gráfica minilibX. El objetivo del juego es que el jugador controle un personaje y
-        recolecte todos los objetos presentes en el nivel para completarlo.</h2>
+Este proyecto está desarrollado en lenguaje C y se ejecuta en el sistema operativo Unix/Linux.
 
-    <h2>Este proyecto está desarrollado en lenguaje C y se ejecuta en el sistema operativo Unix/Linux.</h2>
+## Funcionalidades
+- Visualización de un mapa en una ventana gráfica.
+- Movimiento del personaje a través del mapa.
+- Recolección de objetos presentes en el mapa.
+- Conteo de movimientos y objetos recolectados.
+- Salida del juego una vez se hayan recolectado todos los objetos.
 
-    <h3>Funcionalidades</h3>
-    <ul>
-        <li>Visualización de un mapa en una ventana gráfica.</li>
-        <li>Movimiento del personaje a través del mapa.</li>
-        <li>Recolección de objetos presentes en el mapa.</li>
-        <li>Conteo de movimientos y objetos recolectados.</li>
-        <li>Salida del juego una vez se hayan recolectado todos los objetos.</li>
-    </ul>
+## Requisitos del sistema
+Para compilar y ejecutar el proyecto, necesitarás tener instalado lo siguiente:
+- Sistema operativo Unix/Linux.
+- Compilador GCC.
+- Biblioteca gráfica minilibX.
 
-    <h3>Requisitos del sistema</h3>
-    <p>Para compilar y ejecutar el proyecto, necesitarás tener instalado lo siguiente:</p>
-    <ul>
-        <li>Sistema operativo Unix/Linux.</li>
-        <li>Compilador GCC.</li>
-        <li>Biblioteca gráfica minilibX.</li>
-    </ul>
+## Instrucciones de instalación
+Clona este repositorio en tu máquina local:
+bash
+git clone https://github.com/tu_usuario/so_long.git
+Navega hasta el directorio del proyecto:
 
-    <h3>Instrucciones de instalación</h3>
-    <p>Clona este repositorio en tu máquina local:</p>
-    <pre><code>git clone https://github.com/tu_usuario/so_long.git</code></pre>
-    <p>Navega hasta el directorio del proyecto:</p>
-    <pre><code>cd so_long</code></pre>
-    <p>Compila el proyecto utilizando el Makefile:</p>
-    <pre><code>make</code></pre>
-    <p>Esto generará un ejecutable llamado "so_long".</p>
+bash
+Copy code
+cd so_long
+Compila el proyecto utilizando el Makefile:
 
-    <h3>Instrucciones de uso</h3>
-    <p>Una vez hayas compilado el proyecto, puedes ejecutar el juego con el siguiente comando:</p>
-    <pre><code>./so_long map.ber</code></pre>
-    <p>Reemplaza "map.ber" con el nombre del archivo de mapa que deseas cargar. Asegúrate de que el archivo de mapa esté en
-        el formato adecuado.</p>
-    <p>A continuación, podrás ver el juego en una ventana gráfica. Utiliza las teclas de dirección (WASD o las flechas) para
-        mover al personaje por el mapa. El objetivo es recolectar todos los objetos ('C') y llegar a la salida ('E') para
-        completar el nivel.</p>
-    <p>El juego mostrará la cantidad de movimientos realizados y la cantidad de objetos recolectados en la parte superior de
-        la ventana.</p>
+bash
+Copy code
+make
+Esto generará un ejecutable llamado "so_long".
 
-    <h3>Estructura del proyecto</h3>
-    <p>El proyecto está organizado de la siguiente manera:</p>
-    <pre><code>so_long/
+Instrucciones de uso
+Una vez hayas compilado el proyecto, puedes ejecutar el juego con el siguiente comando:
+
+bash
+Copy code
+./so_long map.ber
+Reemplaza "map.ber" con el nombre del archivo de mapa que deseas cargar. Asegúrate de que el archivo de mapa esté en el formato adecuado.
+
+A continuación, podrás ver el juego en una ventana gráfica. Utiliza las teclas de dirección (WASD o las flechas) para mover al personaje por el mapa. El objetivo es recolectar todos los objetos ('C') y llegar a la salida ('E') para completar el nivel.
+
+El juego mostrará la cantidad de movimientos realizados y la cantidad de objetos recolectados en la parte superior de la ventana.
+
+Estructura del proyecto
+El proyecto está organizado de la siguiente manera:
+
+bash
+Copy code
+so_long/
   ├── inc/          # Archivos de cabecera
   ├── libft/        # Biblioteca de funciones auxiliares
-  ├── maps/           # Archivos de mapa de ejemplo
+  ├── maps/         # Archivos de mapa de ejemplo
   ├── mlx/          # Biblioteca gráfica minilibX
   ├── src/          # Archivos fuente
   ├── Makefile      # Archivo para compilar el proyecto
   └── so_long       # Ejecutable del juego
-</code></pre>
+Contribución
+Si deseas contribuir a este proyecto, puedes realizar un fork del repositorio, hacer tus modificaciones y enviar una solicitud de pull. Agradecemos cualquier mejora o corrección de errores que puedas aportar.
 
-<h3>Contribución</h3>
-<p>Si deseas contribuir a este proyecto, puedes realizar un fork del repositorio, hacer tus modificaciones y enviar una solicitud de pull. Agradecemos cualquier mejora o corrección de errores que puedas aportar.</p>
+Licencia
+Este proyecto se distribuye bajo la licencia MIT. Puedes consultar el archivo LICENSE para obtener más información.
 
-<h3>Licencia</h3>
-<p>Este proyecto se distribuye bajo la licencia MIT. Puedes consultar el archivo LICENSE para obtener más información.</p>
+Contacto
+Si tienes alguna pregunta o sugerencia sobre el proyecto, puedes contactar conmigo a través de mi dirección de correo electrónico tu_correo@example.com.
 
-<h3>Contacto</h3>
-<p>Si tienes alguna pregunta o sugerencia sobre el proyecto, puedes contactar conmigo a través de mi dirección de correo electrónico <a href="mailto:tu_correo@example.com">tu_correo@example.com</a>.</p>
+¡Disfruta del juego!
 
-<p>¡Disfruta del juego!</p>
-</body>
+perl
+Copy code
 
-</html>
+Espero que esto sea lo que estabas buscando. Si tienes alguna otra pregunta, ¡no dudes en preg
+
+
+
+
+User
+has vuelto a escribirlos en varios bloques
+ChatGPT
+Mis disculpas nuevamente por la confusión. Aquí tienes el texto completo en un solo bloque:
+
+markdown
+Copy code
+# So_Long
+![Logo de So_Long](logo.png)
+
+So_Long es un proyecto del programa 42 de Telefónica que consiste en la implementación de un juego 2D simple utilizando la biblioteca gráfica minilibX. El objetivo del juego es que el jugador controle un personaje y recolecte todos los objetos presentes en el nivel para completarlo.
+
+Este proyecto está desarrollado en lenguaje C y se ejecuta en el sistema operativo Unix/Linux.
+
+## Funcionalidades
+- Visualización de un mapa en una ventana gráfica.
+- Movimiento del personaje a través del mapa.
+- Recolección de objetos presentes en el mapa.
+- Conteo de movimientos y objetos recolectados.
+- Salida del juego una vez se hayan recolectado todos los objetos.
+
+## Requisitos del sistema
+Para compilar y ejecutar el proyecto, necesitarás tener instalado lo siguiente:
+- Sistema operativo Unix/Linux.
+- Compilador GCC.
+- Biblioteca gráfica minilibX.
+
+## Instrucciones de instalación
+Clona este repositorio en tu máquina local:
+bash
+git clone https://github.com/tu_usuario/so_long.git
+Navega hasta el directorio del proyecto:
+
+bash
+Copy code
+cd so_long
+Compila el proyecto utilizando el Makefile:
+
+bash
+Copy code
+make
+Esto generará un ejecutable llamado "so_long".
+
+Instrucciones de uso
+Una vez hayas compilado el proyecto, puedes ejecutar el juego con el siguiente comando:
+
+bash
+Copy code
+./so_long map.ber
+Reemplaza "map.ber" con el nombre del archivo de mapa que deseas cargar. Asegúrate de que el archivo de mapa esté en el formato adecuado.
+
+A continuación, podrás ver el juego en una ventana gráfica. Utiliza las teclas de dirección (WASD o las flechas) para mover al personaje por el mapa. El objetivo es recolectar todos los objetos ('C') y llegar a la salida ('E') para completar el nivel.
+
+El juego mostrará la cantidad de movimientos realizados y la cantidad de objetos recolectados en la parte superior de la ventana.
+
+Estructura del proyecto
+El proyecto está organizado de la siguiente manera:
+
+bash
+Copy code
+so_long/
+  ├── inc/          # Archivos de cabecera
+  ├── libft/        # Biblioteca de funciones auxiliares
+  ├── maps/         # Archivos de mapa de ejemplo
+  ├── mlx/          # Biblioteca gráfica minilibX
+  ├── src/          # Archivos fuente
+  ├── Makefile      # Archivo para compilar el proyecto
+  └── so_long       # Ejecutable del juego
+Contribución
+Si deseas contribuir a este proyecto, puedes realizar un fork del repositorio, hacer tus modificaciones y enviar una solicitud de pull. Agradecemos cualquier mejora o corrección de errores que puedas aportar.
+
+Licencia
+Este proyecto se distribuye bajo la licencia MIT. Puedes consultar el archivo LICENSE para obtener más información.
+
+Contacto
+Si tienes alguna pregunta o sugerencia sobre el proyecto, puedes contactar conmigo a través de mi dirección de correo electrónico tu_correo@example.com.
+
+¡Disfruta del juego!
