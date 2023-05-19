@@ -56,7 +56,7 @@ so_long/
   └── so_long       # Ejecutable del juego
 ```
 
-📧 Contacto
+## 📧 Contacto
 Si tienes alguna pregunta o sugerencia sobre el proyecto, puedes contactar conmigo a través de mi dirección de correo electrónico manuelsanchezies@gmail.com.
 
 ¡Disfruta del juego!
