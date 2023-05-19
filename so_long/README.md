@@ -4,20 +4,20 @@ So_Long es un proyecto del programa 42 de Telefónica que consiste en la impleme
 
 Este proyecto está desarrollado en lenguaje C y se ejecuta en el sistema operativo Unix/Linux.
 
-## Funcionalidades
+## 🎮 Funcionalidades
 - Visualización de un mapa en una ventana gráfica.
 - Movimiento del personaje a través del mapa.
 - Recolección de objetos presentes en el mapa.
 - Conteo de movimientos y objetos recolectados.
 - Salida del juego una vez se hayan recolectado todos los objetos.
 
-## Requisitos del sistema
+## ⚙️ Requisitos del sistema
 Para compilar y ejecutar el proyecto, necesitarás tener instalado lo siguiente:
 - Sistema operativo Unix/Linux.
 - Compilador GCC.
 - Biblioteca gráfica minilibX.
 
-## Instrucciones de instalación
+## 🚀 Instrucciones de instalación
 Clona este repositorio en tu máquina local:
 ```
 git clone https://github.com/trollan/so_long.git
@@ -32,7 +32,7 @@ make
 ```
 Esto generará un ejecutable llamado "so_long".
 
-Instrucciones de uso
+## 💡 Instrucciones de uso
 Una vez hayas compilado el proyecto, puedes ejecutar el juego con el siguiente comando:
 ```
 ./so_long maps/map.ber
@@ -43,7 +43,7 @@ A continuación, podrás ver el juego en una ventana gráfica. Utiliza las tecla
 
 El juego mostrará la cantidad de movimientos realizados y la cantidad de objetos recolectados en la parte superior de la ventana.
 
-Estructura del proyecto
+## 📁 Estructura del proyecto
 El proyecto está organizado de la siguiente manera:
 ```
 so_long/
@@ -56,7 +56,7 @@ so_long/
   └── so_long       # Ejecutable del juego
 ```
 
-Contacto
+📧 Contacto
 Si tienes alguna pregunta o sugerencia sobre el proyecto, puedes contactar conmigo a través de mi dirección de correo electrónico manuelsanchezies@gmail.com.
 
 ¡Disfruta del juego!
