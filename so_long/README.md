@@ -57,7 +57,7 @@ so_long/
 ```
 
 Contacto
-Si tienes alguna pregunta o sugerencia sobre el proyecto, puedes contactar conmigo a través de mi dirección de correo electrónico manuelsanchezieso@gmail.com.
+Si tienes alguna pregunta o sugerencia sobre el proyecto, puedes contactar conmigo a través de mi dirección de correo electrónico manuelsanchezies@gmail.com.
 
 ¡Disfruta del juego!
 
