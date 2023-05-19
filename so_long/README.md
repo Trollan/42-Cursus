@@ -20,7 +20,7 @@ Para compilar y ejecutar el proyecto, necesitarás tener instalado lo siguiente:
 ## Instrucciones de instalación
 Clona este repositorio en tu máquina local:
 ```
-git clone https://github.com/tu_usuario/so_long.git
+git clone https://github.com/trollan/so_long.git
 ```
 Navega hasta el directorio del proyecto:
 ```
