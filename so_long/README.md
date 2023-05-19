@@ -47,13 +47,13 @@ El juego mostrará la cantidad de movimientos realizados y la cantidad de objeto
 El proyecto está organizado de la siguiente manera:
 ```
 so_long/
-  ├── ft_printf     # Biblioteca de la funcion ft_printf auxiliar.
-  ├── get_next_line # Biblioteca de la funcion getnextline auxiliar.
-  ├── libft/        # Biblioteca de funciones auxiliares
-  ├── maps/         # Archivos de mapa de ejemplo
-  ├── mlx/          # Biblioteca gráfica minilibX
-  ├── Makefile      # Archivo para compilar el proyecto
-  └── so_long       # Ejecutable del juego
+  ├── ft_printf     # 📚 Biblioteca de la funcion ft_printf auxiliar.
+  ├── get_next_line # 📚 Biblioteca de la funcion getnextline auxiliar.
+  ├── libft/        # 📚 Biblioteca de funciones auxiliares
+  ├── maps/         # 🗺️ Archivos de mapa de ejemplo
+  ├── mlx/          # 🎨 Biblioteca gráfica minilibX
+  ├── Makefile      # 🛠️ Archivo para compilar el proyecto
+  └── so_long       # ▶️ Ejecutable del juego
 ```
 
 ## 📧 Contacto
