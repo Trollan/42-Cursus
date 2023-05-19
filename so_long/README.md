@@ -6,7 +6,6 @@
 </head>
 
 <body>
-    <h1>Logo de So_Long</h1>
     <h2>So_Long es un proyecto del programa 42 de Telefónica que consiste en la implementación de un juego 2D simple
         utilizando la biblioteca gráfica minilibX. El objetivo del juego es que el jugador controle un personaje y
         recolecte todos los objetos presentes en el nivel para completarlo.</h2>
