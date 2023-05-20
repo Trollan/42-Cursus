@@ -23,7 +23,7 @@ To use the libft library, you will need to have the following installed:
 
 Clone this repository to your local machine:
 ```
-git clone https://github.com/malaga42/libft.git
+git clone https://github.com/Trollan/42-Cursus/tree/main/libft.git
 ```
 Navigate to the project directory:
 ```
